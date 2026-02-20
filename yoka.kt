@@ -2,6 +2,8 @@
 fun main() {
     val harpok = 27000
     val harjul = 60000
-    var total = harpok + harjul
+    var diskon = 0.10 
+    var total_diskon = harjul * diskon
+    var total = harjul - total_diskon
     println (total)
 }
