@@ -5,7 +5,7 @@ fun main() {
     var diskon = 0.10 
     for (i in 1..7) {
         var penber = harjul - diskon
-        println ("Hari ke $i = $penber)
+        println ("Hari ke $i = $penber")
         diskon /= 2
     }
 
