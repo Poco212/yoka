@@ -4,8 +4,7 @@ fun main() {
     val harjul = 60000.0
     var diskon = 0.10 
     for (i in 1..7) {
-        println (diskon)
-        diskon /=2
+        println ("Hari ke $i = $diskon / 2")
     }
 
     
