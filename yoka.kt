@@ -43,5 +43,5 @@ fun main() {
         beli += 2
     }
 
-    println ("Total keuntungan atau Kerugian = $keuntungan")
+    println ("Total Keuntungan atau Kerugian = $keuntungan")
 }
