@@ -32,8 +32,6 @@ fun main() {
         // keuntungan setiap hari 
         val keuntungan_hari = keuntungan * beli
         
-        // total
-        total_keuntungan += keuntungan_hari
 
         println ("Hari ke $i")
         println ("Keuntungan = $keuntungan_hari.toInt()")
