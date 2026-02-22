@@ -14,7 +14,7 @@ fun main() {
     var beli = 5.0
 
     // total keuntungan 
-    var keuntungan = 0.0
+    var total_keuntungan = 0.0
 
     for (i in 1..7) {
         // pajak
@@ -33,7 +33,7 @@ fun main() {
         val keuntungan_hari = keuntungan * beli
         
         // total keuntungan
-        val keuntungan += keuntungan_hari
+        val total_keuntungan += keuntungan_hari
 
         println ("Hari ke $i")
         println ("Keuntungan = $keuntungan_hari")
@@ -43,5 +43,5 @@ fun main() {
         beli += 2
     }
 
-    println ("Total Keuntungan atau Kerugian = $keuntungan")
+    println ("Total Keuntungan atau Kerugian = $total_keuntungan")
 }
