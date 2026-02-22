@@ -33,11 +33,7 @@ fun main() {
         val keuntungan_hari = keuntungan * beli
         
         // total keuntungan
-<<<<<<< HEAD
         total_keuntungan += keuntungan_hari
-=======
-        val total_keuntungan += keuntungan_hari
->>>>>>> 9bd6e72c02bc3e719f52bdc879622460db421c64
 
         println ("Hari ke $i")
         println ("Keuntungan = $keuntungan_hari")
