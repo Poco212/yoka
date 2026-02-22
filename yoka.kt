@@ -29,11 +29,16 @@ fun main() {
         // keuntungan setiap hari 
         val keuntungan_hari = keuntungan * beli
         
+        // total
+        total_keuntungan += keuntungan_hari
+
         println ("Hari ke $i")
         println ("Keuntungan = $keuntungan_hari")
-        
+        println ("-----------------------------")
+
         diskon /= 2
         beli += 2
     }
 
+    println ("Total untung atau rugi = $total_keuntungan")
 }
