@@ -12,6 +12,7 @@ fun main() {
     
     // misalnya pembelian 5 dan bertambah 2 setiap harinya
     var beli = 5
+
     for (i in 1..7) {
         // pajak
         val pajak = if ( i % 2 == 0) 0.20 else 0.125
@@ -24,8 +25,11 @@ fun main() {
 
         // keuntungan setiap pembelian
         val keuntungan = harjul_pajk - harga_pokok
+
+        // keuntungan setiap hari 
+        val keuntungan_hari = keuntungan * beli
         
-        println ("Hari ke $i = $keuntungan")
+        println ("Hari ke $i = $keuntungan_hari")
         diskon /= 2
     }
 }
