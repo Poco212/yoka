@@ -11,10 +11,10 @@ fun main() {
     var diskon = 0.10  
     
     // misalnya pemprintln ("Total untung atau rugi = $total_keuntungan")belian 5 dan bertambah 2 setiap harinya
-    var beli = 5
+    var beli = 5.0
 
     // total keuntungan 
-    var total_keuntungan = 0
+    var keuntungan = 0.0
 
     for (i in 1..7) {
         // pajak
@@ -32,12 +32,16 @@ fun main() {
         // keuntungan setiap hari 
         val keuntungan_hari = keuntungan * beli
         
+        // total keuntungan
+        val keuntungan += keuntungan_hari
 
         println ("Hari ke $i")
-        println ("Keuntungan = ${keuntungan_hari.toInt()}")
+        println ("Keuntungan = $keuntungan_hari")
         println ("-----------------------------")
 
         diskon /= 2
         beli += 2
     }
+
+    println ("Total keuntungan atau Kerugian = $keuntungan")
 }
