@@ -36,12 +36,10 @@ fun main() {
         total_keuntungan += keuntungan_hari
 
         println ("Hari ke $i")
-        println ("Keuntungan = $keuntungan_hari")
+        println ("Keuntungan = $keuntungan_hari.toInt()")
         println ("-----------------------------")
 
         diskon /= 2
         beli += 2
     }
-
-    println ("Total untung atau rugi = $total_keuntungan")
 }
