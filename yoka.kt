@@ -22,5 +22,4 @@ fun main() {
         println ("Hari ke $i = $harjul_disk")
         diskon /= 2
     }
-    
 }
