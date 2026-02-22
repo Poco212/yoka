@@ -31,5 +31,6 @@ fun main() {
         
         println ("Hari ke $i = $keuntungan_hari")
         diskon /= 2
+        beli += 2
     }
 }
