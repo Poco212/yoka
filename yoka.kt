@@ -4,10 +4,9 @@ fun main() {
     val harjul = 60000.0
     var diskon = 0.10 
     for (i in 1..7) {
-        var predis = $ {harjul - (harjul * diskon)}
+        var predis = harjul - ${harjul * diskon}
         println (predis)
         diskon /= 2
     }
-
     
 }
