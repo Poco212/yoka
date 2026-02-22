@@ -10,7 +10,7 @@ fun main() {
     // diskon hari pertama 10% dan berkurang setengah tiap hari nya
     var diskon = 0.10  
     
-    // misalnya pemprintln ("Total untung atau rugi = $total_keuntungan")belian 5 dan bertambah 2 setiap harinya
+    // pembelian hari pertama
     var beli = 5.0
 
     // total keuntungan 
