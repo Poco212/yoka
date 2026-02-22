@@ -34,7 +34,7 @@ fun main() {
         
 
         println ("Hari ke $i")
-        println ("Keuntungan = $keuntungan_hari.toInt()")
+        println ("Keuntungan = ${keuntungan_hari.toInt()}")
         println ("-----------------------------")
 
         diskon /= 2
