@@ -18,8 +18,11 @@ fun main() {
         
         //harga setelah diskon
         val harjul_disk = harga_jualan - (harga_jualan * diskon)
+
+        // harga setelah pajak
+        val harjul_pajk = harjul_disk - (harjul_disk * pajak)
         
-        println ("Hari ke $i = $harjul_disk")
+        println ("Hari ke $i = $harjul_pajk")
         diskon /= 2
     }
 }
