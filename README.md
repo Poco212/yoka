@@ -1,2 +1,4 @@
-# yoka
-kotlin learning
+# learning kotlin
+
+apps for calculating profits
+
