@@ -21,8 +21,11 @@ fun main() {
 
         // harga setelah pajak
         val harjul_pajk = harjul_disk - (harjul_disk * pajak)
+
+        // keuntungan setiap pembelian
+        val keuntungan = harjul_pajk - harga_pokok
         
-        println ("Hari ke $i = $harjul_pajk")
+        println ("Hari ke $i = $keuntungan")
         diskon /= 2
     }
 }
