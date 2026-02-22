@@ -29,8 +29,11 @@ fun main() {
         // keuntungan setiap hari 
         val keuntungan_hari = keuntungan * beli
         
-        println ("Hari ke $i = $keuntungan_hari")
+        println ("Hari ke $i")
+        println ("Keuntungan = $keuntungan_hari")
+        
         diskon /= 2
         beli += 2
     }
+
 }
